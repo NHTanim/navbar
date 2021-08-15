@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+
+.header{
+    background-color: rgb(205, 245, 205) !important;
+}
+
+.navbar-brand img{
+    width: 198.07px;
+    height: 59px;
+}
+
+/* nav menu left side */
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-item{
+    padding: 11px;
+}
+.nav-item a{
+    font-size: 20px;
+    color: rgb(37, 37, 37);
+}
+.nav-item a:hover{
+    color: rgb(6, 119, 53);
+    font-weight: bold;
+}
+.nav_btn{
+    width: 117px;
+    height: 44px;
+    background-color:  #21B573;
+    border-radius: 33px;
+    text-align: center;
+    border: none;
+}
+.nav_btn:hover{
+    background-color: grey;
+}
+.nav_btn .btn{
+    color: #ffffff;
+    padding: 10px 28px;
+}
+
+
+
+
+/* ------ */
+.navbar-toggler{
+    background-color: #21B573;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+
+/* 1st span tag */
+.navbar-toggler span{
+    display: block;
+    width: 22px;
+    height: 2px;
+    /* border: 1px; */
+    background: #fff;
+}
+
+/* 2nd span tag */
+.navbar-toggler span + span {
+    width: 18px;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+/* 3rd span tag */
+.navbar-toggler span + span + span {
+ width: 10px;
+ margin-left: 4px;
+}
+
